@@ -62,6 +62,7 @@ main article h1{
   
 }
 
+
 main article p{
     line-height: 1.6;
     font-size: 20px;
@@ -100,18 +101,102 @@ main article p{
 .links-box:hover{
     background-color: #F0F2F3;
     color: black
-    
 
 }   
+
+.contact{
+    background: #27445C;
+    background: -moz-linear-gradient(135deg, #27445C 0%, #022541 100%);
+    background: -webkit-linear-gradient(135deg, #27445C 0%, #022541 100%);
+    background: -o-linear-gradient(135deg, #27445C 0%, #022541 100%);
+    background: linear-gradient(135deg, #27445C 0%, #022541 100%);
+
+    padding: 30px;
+    margin: auto;
+    border-radius: 90px;
+    width: 50%;
+    color: white;
+}
+main article form p.buttons input[type="submit"]{
+    background-color:lightcoral;  
+    border-radius: 5px; 
+}
+
+main article form p.buttons input[type="reset"]{
+    background-color: lightslategray;  
+    border-radius: 5px;
+}
+
+.project-con{
+    margin-top: 40px;
+   }
+
+.project-box{
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #27445C;
+    color: #F0F2F3;
+    border-radius: 15px;
+    min-height: 260px;
+    max-height: 260px;
+}
+.project-box h3{
+    margin: 0 0 12px 0;
+    font-family: 'Space Grotesk' , Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.project-box h1{
+    margin-top: 50px;
+    font-family: 'Space Grotesk' , Arial, sans-serif;
+    text-align: center;
+}
+
+.project-box p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.project-box:hover{
+    background-color: #F0F2F3;
+    color: #022541;
+}
 footer{
    background-color: #F0F2F3;
-    width:97%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     border-radius: 5px;
-}
-
-footer h5{
+    box-sizing: border-box;
+    color: #022541;
     text-align: center;
 }
+
+footer p{
+   margin: 5px 0;
+   font-size: 14px;
+}
+
+footer a{
+    color: #27445C;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer address{
+    font-style: normal;
+    margin: 5px 0;
+    font-size: 14px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
