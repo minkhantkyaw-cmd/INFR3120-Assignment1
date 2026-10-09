@@ -3,7 +3,7 @@
 Responsive 4-page portfolio website built using semantic HTML5 and CSS styles.
 Includes different viewport requirements and version control.
 
-- Live site:
+- Live site:  https://minkhantkyaw-cmd.github.io/INFR3120-Assignment1/
 - Repository: https://github.com/minkhantkyaw-cmd/INFR3120-Assignment1
 
 # SITE STRUCTURE 
