@@ -7,6 +7,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+        <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 481px) and (max-width: 960px)">
+        <link rel="stylesheet" href="style.css"  media="screen and (min-width: 961px)">
     </head>
     <body>
         <div class="wrapper">
@@ -24,12 +28,13 @@
             </header>
             
             <main>
+                <!--contact form-->
                 <article class="contact">
                     <h1>Let's get in touch!</h1>
                     <p> Have a question about me or just wanted to stay in touch? 
                         Please fll out the form and we can stay in-touch in no time.
                     </p>
-                    <form action="mailto:minkhant.kyaw@ontariotechu.net?subject=Contact & Feedback"
+                    <form action="mailto:minkhant.kyaw@ontariotechu.net?subject=Contact&Feedback"
                     method="post" enctype="text/plain" name="contactForm">
 
                     <p>
@@ -49,7 +54,7 @@
 
                     <p>
                         <label for="dob">Date Of Birth (Optional): </label>
-                        <input type="date" id="dob" name="dob" size="32" placeholder="Your Date of brith" >
+                        <input type="date" id="dob" name="dob" size="32" >
                                
                     </p>
                     <p>

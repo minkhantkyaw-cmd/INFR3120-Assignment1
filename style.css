@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/* Styling the entire body */
 body{
     background-color: #022541;
     padding: 0;
@@ -10,6 +10,7 @@ body{
     
 }
 
+/*styling the header*/
 header{
     background-color: #F0F2F3;
     width:99%;
@@ -19,14 +20,20 @@ header{
     border-radius: 5px;
     
 }
+
+/*styling the heading insider the header*/
 header h2{
     margin: 0;
     float: left;
     font-family: 'Space Grotesk',Arial, sans-serif;
 }
+
+/*styling the nav tab*/
 nav{
     float: right;
 }
+
+/*styling each item inside nav*/
 nav ul li{
     float: left;
     width: 80px;
@@ -35,14 +42,17 @@ nav ul li{
     text-decoration: none;
 }
 
+/*styling links inside the nav menu*/
 nav ul li a{
     text-decoration: none;
 }
 
+/*clears folated elements*/
 .clear{
     clear: both;
 }
 
+/*main content area styling*/
 main{
     width: 97%;
     margin-left: auto;
@@ -53,6 +63,7 @@ main{
     
 }
 
+/*styling main heading inside an article in main*/
 main article h1{
     margin: 0 0 15px 0;
     font-family: 'Space Grotesk', Arial, sans-serif;
@@ -62,7 +73,7 @@ main article h1{
   
 }
 
-
+/*styling paragraphs inside article in main*/
 main article p{
     line-height: 1.6;
     font-size: 20px;
@@ -71,11 +82,11 @@ main article p{
     margin-right: auto;
     text-align: center;
 }
-
+/*adding space above the section containg the hompage link boxes*/
 .box-links{
     margin-top: 80px;
 }
-
+/*styling the link boxes*/
 .links-box{
     float: left;
     width: 29%;
@@ -90,20 +101,22 @@ main article p{
     text-align: center;
 }
 
+/*styling the heading inside each box*/
 .links-box h3{
     margin: 0 0 10px 0;
 }
-
+/*styling the paragraph inside each box*/
 .links-box p{
     margin: 0;
 }
-
+/*styling the appearance of link box using hover*/
 .links-box:hover{
     background-color: #F0F2F3;
     color: black
 
 }   
 
+/*styling the contact section*/
 .contact{
     background: #27445C;
     background: -moz-linear-gradient(135deg, #27445C 0%, #022541 100%);
@@ -117,20 +130,24 @@ main article p{
     width: 50%;
     color: white;
 }
+
+/*styling the button*/
 main article form p.buttons input[type="submit"]{
     background-color:lightcoral;  
     border-radius: 5px; 
 }
-
+/*styling the button*/
 main article form p.buttons input[type="reset"]{
     background-color: lightslategray;  
     border-radius: 5px;
 }
 
+/*adding space above project box*/
 .project-con{
     margin-top: 40px;
    }
 
+/*styling each project box*/
 .project-box{
     float: left;
     width: 30%;
@@ -143,30 +160,34 @@ main article form p.buttons input[type="reset"]{
     min-height: 260px;
     max-height: 260px;
 }
+
+/*styling project titles*/
 .project-box h3{
     margin: 0 0 12px 0;
     font-family: 'Space Grotesk' , Arial, sans-serif;
     font-size: 18px;
     text-align: center;
 }
-
+/*styling the heading for the last project box*/
 .project-box h1{
     margin-top: 50px;
     font-family: 'Space Grotesk' , Arial, sans-serif;
     text-align: center;
 }
-
+/*styling the descriptions in the project box*/
 .project-box p{
     margin: 0;
     font-size: 15px;
     line-height: 1.5;
     text-align: left;
 }
-
+/*styling the appearance of project box using hover*/
 .project-box:hover{
     background-color: #F0F2F3;
     color: #022541;
 }
+
+/*styling the footer*/
 footer{
    background-color: #F0F2F3;
     width:100%;
@@ -178,6 +199,52 @@ footer{
     color: #022541;
     text-align: center;
 }
+/*styling the about page article*/
+.about-article{
+    background:#27445C;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    
+}
+/*styling heading 1 and 2 inside the about page*/
+.about-article h1, .about-article h2{
+    color: #F0F2F3;
+    margin-bottom: 20px
+}
+
+/*styling profile photo*/
+.profile-photo{
+    float: left;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #F0F2F3;
+    margin-right: 25px;
+    margin-bottom: 15px;
+
+}
+/*styling paragraphs*/
+.bio-text p {
+    color: #F0F2F3;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/*styling video container*/
+.video{
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*adjusting video*/
+.video video{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    border: 2px solid #F0F2F3;
+}
+
 
 footer p{
    margin: 5px 0;
